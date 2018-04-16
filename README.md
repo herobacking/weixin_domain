@@ -1,7 +1,7 @@
 # weixin_domain
 微信域名检测接口、微信网址检测是否被封、微信网址安全检测、微信网址防封、微信域名防止拦截
 
-<?php
+
 
 function do_check(){
 	$domain =  "www.baidu.com";
@@ -40,7 +40,5 @@ function get_msg($url){
 }
 
 do_check();
-
-?>
 
 
